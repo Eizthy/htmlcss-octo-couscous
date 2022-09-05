@@ -1,0 +1,272 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+}
+
+.covid {
+    width: 230px;
+    float: left;
+    height: 70px;
+    color:darkslategrey
+}
+
+.options{
+    width: 10px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 14px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:coral;
+    font-family: Arial;
+    font-weight: bold;
+    transition:all
+}
+
+.head{
+    width: 300px;
+    height: 420px;
+    background: transparent;
+    color: white;
+    top:60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 70px 30px;
+}
+
+.head h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 3px; 
+    color: darkslategrey; 
+}
+
+.head label{
+    font-size: 20px;
+    margin: 50px;
+    font-weight: bold;
+    margin-left: 0%;
+    color: darkslategrey;
+}
+
+.head input{
+    width: 100%;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.head input[type="text"]{
+    background: transparent;
+}
+
+
+.head button{
+    width: 95px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 80px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid ;
+    background: transparent;
+    color:darkslategrey;
+    cursor: pointer;
+    position: absolute;
+}
+.head button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.heads {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    top: 0px;
+    left: 90px;
+}
+
+.main1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.data h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    color: darkslategrey;
+    font-size: 50px;
+}
+
+.data{
+    width: 1000px;
+    height: 450px;
+    color: white;
+    top:40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 70px 30px;   
+}
+
+.data{
+    text-align: left;
+    text-indent: 100px;
+}
+
+table{
+    width: 90%;
+    table-layout:fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+
+thread{
+    position: fixed;
+    background-color: burlywood;
+    font-size:large;
+    font-style: bold;
+}
+
+th, td{
+    border-bottom: 1px solid grey;
+    padding: 15px 20px;
+    word-break:keep-all;
+    font-size: medium;
+}
+
+th{
+    color: darkslategrey;
+    text-align: center;
+}
+
+td{
+    font-size: 18px;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: justify;
+    text-indent: 30%;
+}
+
+.table button {
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background: transparent;
+    margin: 50px 50%;
+    border-radius: 25px;
+}
+
+.main2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.perInfo{
+    width: 1000px;
+    height: 450px;
+    color:darkslategrey;
+    top:40%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 70px 30px; 
+}
+
+perInfo{
+    text-align: center;
+    text-indent: 100px;
+}
+.perInfo h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: -10px;
+    margin-top: 0px;
+    color: darkslategrey;
+    font-size: 50px;
+    width:50%;
+}
+
+.name{
+    background: transparent;
+    height: 30px;
+    position: relative;
+    left: 65px;
+}
+
+.address{
+    background:transparent;
+    height: 25px;
+    left: 82px;
+    position: relative;
+}
+
+.ConNum{
+    background:transparent;
+    height: 25px;
+    left: 10px;
+    position: relative;
+}
+
+.temper{
+    background:transparent;
+    height: 25px;
+    left: 40px;
+    position: relative;
+}
+
+.perInfo button{
+    width: 85px;
+    padding: 5px 0;
+    text-align: center;
+    margin: 50px 0;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid beige ;
+    background: transparent;
+    color:darkslategrey;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 45px;
+}
